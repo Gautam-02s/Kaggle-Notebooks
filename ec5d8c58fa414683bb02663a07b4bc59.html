@@ -1,0 +1,1475 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>fb70a494427c430b82ea571dd0854175</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="f520b9f4" class="cell markdown"
+data-papermill="{&quot;duration&quot;:9.678e-3,&quot;end_time&quot;:&quot;2024-07-20T16:05:45.884741&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:05:45.875063&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<h1 id="about-the-dataset">About the dataset</h1>
+<p>This dataset, spanning from January 2020 to May 2024, contains a
+comprehensive collection of global climate data. It includes various
+climatic features measured on a monthly basis, providing insights into
+weather patterns, temperature changes, and environmental conditions over
+time.</p>
+<p>Author:Atif Masih</p>
+</div>
+<div id="5ad4760e" class="cell markdown"
+data-papermill="{&quot;duration&quot;:8.899e-3,&quot;end_time&quot;:&quot;2024-07-20T16:05:45.903088&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:05:45.894189&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<h1 id="problem-statement">Problem Statement</h1>
+<p>Building an Al model to predict and mitigate the impact of climate
+change by analysing historical climate data, current environmental
+conditions, and human activities. The solution should help policymakers
+and organizations develop effective climate action plans.</p>
+</div>
+<div id="3ca8947d" class="cell markdown"
+data-papermill="{&quot;duration&quot;:8.937e-3,&quot;end_time&quot;:&quot;2024-07-20T16:05:45.921743&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:05:45.912806&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<h1 id="objective">Objective</h1>
+<p>Develop a robust AI model to predict and mitigate the impacts of
+climate change by analyzing historical climate data, current
+environmental conditions, and human activities. This solution will
+empower policymakers and organizations to craft effective and proactive
+climate action plans.</p>
+</div>
+<div id="26595d70" class="cell markdown"
+data-papermill="{&quot;duration&quot;:9.004e-3,&quot;end_time&quot;:&quot;2024-07-20T16:05:45.939989&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:05:45.930985&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<h1 id="scope">Scope</h1>
+<p>1.Data Collection and Preprocessing.</p>
+<p>2.Exploratory Data Analysis (EDA).</p>
+<p>3.Feature Engineering.</p>
+<p>4.Model Development.</p>
+<p>5.Insights</p>
+</div>
+<div id="b4b1ab3e" class="cell code" data-execution_count="1"
+data-_cell_guid="b1076dfc-b9ad-4769-8c92-a6c4dae69d19"
+data-_uuid="8f2839f25d086af736a60e9eeb907d3b93b6e0e5"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-07-20T16:05:45.961934Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-07-20T16:05:45.961466Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-07-20T16:05:46.907259Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-07-20T16:05:46.906040Z&quot;}"
+data-papermill="{&quot;duration&quot;:0.960338,&quot;end_time&quot;:&quot;2024-07-20T16:05:46.910505&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:05:45.950167&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np <span class="co"># linear algebra</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd <span class="co"># data processing, CSV file I/O (e.g. pd.read_csv)</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> dirname, _, filenames <span class="kw">in</span> os.walk(<span class="st">&#39;/kaggle/input&#39;</span>):</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> filename <span class="kw">in</span> filenames:</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(os.path.join(dirname, filename))</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> warnings</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>warnings.filterwarnings(<span class="st">&#39;ignore&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>/kaggle/input/climate-change-dataset2020-2024/climate_change_dataset.csv
+</code></pre>
+</div>
+</div>
+<div id="9d9f4e1e" class="cell markdown"
+data-papermill="{&quot;duration&quot;:9.127e-3,&quot;end_time&quot;:&quot;2024-07-20T16:05:46.929245&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:05:46.920118&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<h1 id="1-data-loading-and-initial-inspection">1. Data Loading and
+Initial Inspection</h1>
+</div>
+<div id="d021349c" class="cell code" data-execution_count="2"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-07-20T16:05:46.949744Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-07-20T16:05:46.949270Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-07-20T16:05:46.996252Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-07-20T16:05:46.995066Z&quot;}"
+data-papermill="{&quot;duration&quot;:5.987e-2,&quot;end_time&quot;:&quot;2024-07-20T16:05:46.998489&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:05:46.938619&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>df<span class="op">=</span>pd.read_csv(<span class="st">&#39;/kaggle/input/climate-change-dataset2020-2024/climate_change_dataset.csv&#39;</span>)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>df.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="2">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Year</th>
+      <th>Month</th>
+      <th>Avg_Temp (°C)</th>
+      <th>Max_Temp (°C)</th>
+      <th>Min_Temp (°C)</th>
+      <th>Precipitation (mm)</th>
+      <th>Humidity (%)</th>
+      <th>Wind_Speed (m/s)</th>
+      <th>Solar_Irradiance (W/m²)</th>
+      <th>Cloud_Cover (%)</th>
+      <th>CO2_Concentration (ppm)</th>
+      <th>Latitude</th>
+      <th>Longitude</th>
+      <th>Altitude (m)</th>
+      <th>Proximity_to_Water (km)</th>
+      <th>Urbanization_Index</th>
+      <th>Vegetation_Index</th>
+      <th>ENSO_Index</th>
+      <th>Particulate_Matter (µg/m³)</th>
+      <th>Sea_Surface_Temp (°C)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>-3.460516</td>
+      <td>33.056918907353285</td>
+      <td>NaN</td>
+      <td>184.89969755743786</td>
+      <td>89.62081302618182</td>
+      <td>9.742885739415993</td>
+      <td>NaN</td>
+      <td>58.530797670209076</td>
+      <td>NaN</td>
+      <td>40.7128</td>
+      <td>NaN</td>
+      <td>10.0</td>
+      <td>15.0</td>
+      <td>NaN</td>
+      <td>0.04423782887418304</td>
+      <td>0.6336943092843479</td>
+      <td>33.43707805480527</td>
+      <td>18.545360112309588</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2020.0</td>
+      <td>2.0</td>
+      <td>NaN</td>
+      <td>25.901916083791665</td>
+      <td>3.1739745975583844</td>
+      <td>2.957244192049635</td>
+      <td>95.17102000342224</td>
+      <td>10.64824600272703</td>
+      <td>252.3136442294677</td>
+      <td>32.85666516634471</td>
+      <td>419.595924</td>
+      <td>40.7128</td>
+      <td>-74.006</td>
+      <td>10.0</td>
+      <td>15.0</td>
+      <td>99999.000000</td>
+      <td>0.6128400325468267</td>
+      <td>NaN</td>
+      <td>24.504783135571934</td>
+      <td>15.909586979280654</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2020.0</td>
+      <td>3.0</td>
+      <td>7.869842</td>
+      <td>18.63424149980029</td>
+      <td>10.42485208665568</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>247.39139984511084</td>
+      <td>29.380233637986674</td>
+      <td>416.650458</td>
+      <td>40.7128</td>
+      <td>-74.006</td>
+      <td>10.0</td>
+      <td>15.0</td>
+      <td>0.341732</td>
+      <td>0.4665653848003175</td>
+      <td>-0.4280583600093959</td>
+      <td>32.3274997743319</td>
+      <td>21.281093622177334</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>NaN</td>
+      <td>4.0</td>
+      <td>-0.049863</td>
+      <td>13.030562376875533</td>
+      <td>-9.196433418151315</td>
+      <td>102.4544605414934</td>
+      <td>Unknown</td>
+      <td>0.898697634212508</td>
+      <td>143.26161801322706</td>
+      <td>17.496855610388273</td>
+      <td>418.922808</td>
+      <td>40.7128</td>
+      <td>-74.006</td>
+      <td>10.0</td>
+      <td>15.0</td>
+      <td>0.896383</td>
+      <td>0.030465932726280065</td>
+      <td>-0.5707078659552114</td>
+      <td>20.496275820817043</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2020.0</td>
+      <td>5.0</td>
+      <td>19.895067</td>
+      <td>35.88212887551623</td>
+      <td>20.067999652410148</td>
+      <td>185.72922332959365</td>
+      <td>73.99994640624561</td>
+      <td>13.128301152215258</td>
+      <td>169.5494376964624</td>
+      <td>2.1937104861995405</td>
+      <td>401.896588</td>
+      <td>40.7128</td>
+      <td>-74.006</td>
+      <td>10.0</td>
+      <td>99999.0</td>
+      <td>0.076173</td>
+      <td>NaN</td>
+      <td>-0.2861494705734404</td>
+      <td>22.64905691725084</td>
+      <td>15.502968235198333</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="c14c9fbd" class="cell code" data-execution_count="3"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-07-20T16:05:47.020124Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-07-20T16:05:47.019331Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-07-20T16:05:47.047065Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-07-20T16:05:47.045427Z&quot;}"
+data-papermill="{&quot;duration&quot;:4.1065e-2,&quot;end_time&quot;:&quot;2024-07-20T16:05:47.049337&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:05:47.008272&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>df.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 53 entries, 0 to 52
+Data columns (total 20 columns):
+ #   Column                      Non-Null Count  Dtype  
+---  ------                      --------------  -----  
+ 0   Year                        48 non-null     object 
+ 1   Month                       48 non-null     object 
+ 2   Avg_Temp (°C)               46 non-null     float64
+ 3   Max_Temp (°C)               46 non-null     object 
+ 4   Min_Temp (°C)               45 non-null     object 
+ 5   Precipitation (mm)          49 non-null     object 
+ 6   Humidity (%)                45 non-null     object 
+ 7   Wind_Speed (m/s)            51 non-null     object 
+ 8   Solar_Irradiance (W/m²)     48 non-null     object 
+ 9   Cloud_Cover (%)             49 non-null     object 
+ 10  CO2_Concentration (ppm)     47 non-null     float64
+ 11  Latitude                    47 non-null     object 
+ 12  Longitude                   50 non-null     object 
+ 13  Altitude (m)                49 non-null     object 
+ 14  Proximity_to_Water (km)     47 non-null     object 
+ 15  Urbanization_Index          50 non-null     float64
+ 16  Vegetation_Index            50 non-null     object 
+ 17  ENSO_Index                  50 non-null     object 
+ 18  Particulate_Matter (µg/m³)  50 non-null     object 
+ 19  Sea_Surface_Temp (°C)       46 non-null     object 
+dtypes: float64(3), object(17)
+memory usage: 8.4+ KB
+</code></pre>
+</div>
+</div>
+<div id="57a19f27" class="cell code" data-execution_count="4"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-07-20T16:05:47.071313Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-07-20T16:05:47.070950Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-07-20T16:05:47.093238Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-07-20T16:05:47.092125Z&quot;}"
+data-papermill="{&quot;duration&quot;:3.5588e-2,&quot;end_time&quot;:&quot;2024-07-20T16:05:47.095388&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:05:47.059800&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert columns to appropriate data types</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Year&#39;</span>] <span class="op">=</span> pd.to_numeric(df[<span class="st">&#39;Year&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>).astype(<span class="st">&#39;Int64&#39;</span>)</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Month&#39;</span>] <span class="op">=</span> pd.to_numeric(df[<span class="st">&#39;Month&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>).astype(<span class="st">&#39;Int64&#39;</span>)</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Avg_Temp (°C)&#39;</span>] <span class="op">=</span> pd.to_numeric(df[<span class="st">&#39;Avg_Temp (°C)&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Max_Temp (°C)&#39;</span>] <span class="op">=</span> pd.to_numeric(df[<span class="st">&#39;Max_Temp (°C)&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Min_Temp (°C)&#39;</span>] <span class="op">=</span> pd.to_numeric(df[<span class="st">&#39;Min_Temp (°C)&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Precipitation (mm)&#39;</span>] <span class="op">=</span> pd.to_numeric(df[<span class="st">&#39;Precipitation (mm)&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Humidity (%)&#39;</span>] <span class="op">=</span> pd.to_numeric(df[<span class="st">&#39;Humidity (%)&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Wind_Speed (m/s)&#39;</span>] <span class="op">=</span> pd.to_numeric(df[<span class="st">&#39;Wind_Speed (m/s)&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Solar_Irradiance (W/m²)&#39;</span>] <span class="op">=</span> pd.to_numeric(df[<span class="st">&#39;Solar_Irradiance (W/m²)&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Cloud_Cover (%)&#39;</span>] <span class="op">=</span> pd.to_numeric(df[<span class="st">&#39;Cloud_Cover (%)&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;CO2_Concentration (ppm)&#39;</span>] <span class="op">=</span> pd.to_numeric(df[<span class="st">&#39;CO2_Concentration (ppm)&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Latitude&#39;</span>] <span class="op">=</span> pd.to_numeric(df[<span class="st">&#39;Latitude&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Longitude&#39;</span>] <span class="op">=</span> pd.to_numeric(df[<span class="st">&#39;Longitude&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Altitude (m)&#39;</span>] <span class="op">=</span> pd.to_numeric(df[<span class="st">&#39;Altitude (m)&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Proximity_to_Water (km)&#39;</span>] <span class="op">=</span> pd.to_numeric(df[<span class="st">&#39;Proximity_to_Water (km)&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Urbanization_Index&#39;</span>] <span class="op">=</span> pd.to_numeric(df[<span class="st">&#39;Urbanization_Index&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Vegetation_Index&#39;</span>] <span class="op">=</span> pd.to_numeric(df[<span class="st">&#39;Vegetation_Index&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;ENSO_Index&#39;</span>] <span class="op">=</span> pd.to_numeric(df[<span class="st">&#39;ENSO_Index&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Particulate_Matter (µg/m³)&#39;</span>] <span class="op">=</span> pd.to_numeric(df[<span class="st">&#39;Particulate_Matter (µg/m³)&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Sea_Surface_Temp (°C)&#39;</span>] <span class="op">=</span> pd.to_numeric(df[<span class="st">&#39;Sea_Surface_Temp (°C)&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df.dtypes)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Year                            Int64
+Month                           Int64
+Avg_Temp (°C)                 float64
+Max_Temp (°C)                 float64
+Min_Temp (°C)                 float64
+Precipitation (mm)            float64
+Humidity (%)                  float64
+Wind_Speed (m/s)              float64
+Solar_Irradiance (W/m²)       float64
+Cloud_Cover (%)               float64
+CO2_Concentration (ppm)       float64
+Latitude                      float64
+Longitude                     float64
+Altitude (m)                  float64
+Proximity_to_Water (km)       float64
+Urbanization_Index            float64
+Vegetation_Index              float64
+ENSO_Index                    float64
+Particulate_Matter (µg/m³)    float64
+Sea_Surface_Temp (°C)         float64
+dtype: object
+</code></pre>
+</div>
+</div>
+<div id="9ca2e46f" class="cell code" data-execution_count="5"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-07-20T16:05:47.116993Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-07-20T16:05:47.116603Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-07-20T16:05:47.141548Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-07-20T16:05:47.140341Z&quot;}"
+data-papermill="{&quot;duration&quot;:3.9208e-2,&quot;end_time&quot;:&quot;2024-07-20T16:05:47.144476&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:05:47.105268&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Check for missing values</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>missing_values <span class="op">=</span> df.isnull().<span class="bu">sum</span>()</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Missing values:</span><span class="ch">\n</span><span class="st">&quot;</span>, missing_values)</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Handle missing values</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Avg_Temp (°C)&#39;</span>].fillna(df[<span class="st">&#39;Avg_Temp (°C)&#39;</span>].mean(), inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Max_Temp (°C)&#39;</span>].fillna(df[<span class="st">&#39;Max_Temp (°C)&#39;</span>].mean(), inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Min_Temp (°C)&#39;</span>].fillna(df[<span class="st">&#39;Min_Temp (°C)&#39;</span>].mean(), inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Precipitation (mm)&#39;</span>].fillna(df[<span class="st">&#39;Precipitation (mm)&#39;</span>].mean(), inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Humidity (%)&#39;</span>].replace(<span class="st">&#39;Unknown&#39;</span>, np.nan, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Humidity (%)&#39;</span>].fillna(df[<span class="st">&#39;Humidity (%)&#39;</span>].mean(), inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Wind_Speed (m/s)&#39;</span>].fillna(df[<span class="st">&#39;Wind_Speed (m/s)&#39;</span>].mean(), inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Solar_Irradiance (W/m²)&#39;</span>].fillna(df[<span class="st">&#39;Solar_Irradiance (W/m²)&#39;</span>].mean(),inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Solar_Irradiance (W/m²)&#39;</span>].fillna(df[<span class="st">&#39;Solar_Irradiance (W/m²)&#39;</span>].mean(), inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Cloud_Cover (%)&#39;</span>].fillna(df[<span class="st">&#39;Cloud_Cover (%)&#39;</span>].mean(), inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;CO2_Concentration (ppm)&#39;</span>].fillna(df[<span class="st">&#39;CO2_Concentration (ppm)&#39;</span>].mean(), inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Latitude&#39;</span>].fillna(df[<span class="st">&#39;Latitude&#39;</span>].mean(), inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Longitude&#39;</span>].fillna(df[<span class="st">&#39;Longitude&#39;</span>].mean(), inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Altitude (m)&#39;</span>].fillna(df[<span class="st">&#39;Altitude (m)&#39;</span>].mean(), inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Proximity_to_Water (km)&#39;</span>].fillna(df[<span class="st">&#39;Proximity_to_Water (km)&#39;</span>].mean(), inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Urbanization_Index&#39;</span>].fillna(df[<span class="st">&#39;Urbanization_Index&#39;</span>].mean(), inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-22"><a href="#cb8-22" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Vegetation_Index&#39;</span>].fillna(df[<span class="st">&#39;Vegetation_Index&#39;</span>].mean(), inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-23"><a href="#cb8-23" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;ENSO_Index&#39;</span>].fillna(df[<span class="st">&#39;ENSO_Index&#39;</span>].mean(), inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-24"><a href="#cb8-24" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Particulate_Matter (µg/m³)&#39;</span>].fillna(df[<span class="st">&#39;Particulate_Matter (µg/m³)&#39;</span>].mean(), inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-25"><a href="#cb8-25" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Sea_Surface_Temp (°C)&#39;</span>].fillna(df[<span class="st">&#39;Sea_Surface_Temp (°C)&#39;</span>].mean(), inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-26"><a href="#cb8-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-27"><a href="#cb8-27" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Missing values after imputation:</span><span class="ch">\n</span><span class="st">&quot;</span>, df.isnull().<span class="bu">sum</span>())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Missing values:
+ Year                          6
+Month                         6
+Avg_Temp (°C)                 7
+Max_Temp (°C)                 8
+Min_Temp (°C)                 9
+Precipitation (mm)            5
+Humidity (%)                  9
+Wind_Speed (m/s)              3
+Solar_Irradiance (W/m²)       6
+Cloud_Cover (%)               5
+CO2_Concentration (ppm)       6
+Latitude                      7
+Longitude                     4
+Altitude (m)                  5
+Proximity_to_Water (km)       7
+Urbanization_Index            3
+Vegetation_Index              4
+ENSO_Index                    4
+Particulate_Matter (µg/m³)    4
+Sea_Surface_Temp (°C)         8
+dtype: int64
+Missing values after imputation:
+ Year                          6
+Month                         6
+Avg_Temp (°C)                 0
+Max_Temp (°C)                 0
+Min_Temp (°C)                 0
+Precipitation (mm)            0
+Humidity (%)                  0
+Wind_Speed (m/s)              0
+Solar_Irradiance (W/m²)       0
+Cloud_Cover (%)               0
+CO2_Concentration (ppm)       0
+Latitude                      0
+Longitude                     0
+Altitude (m)                  0
+Proximity_to_Water (km)       0
+Urbanization_Index            0
+Vegetation_Index              0
+ENSO_Index                    0
+Particulate_Matter (µg/m³)    0
+Sea_Surface_Temp (°C)         0
+dtype: int64
+</code></pre>
+</div>
+</div>
+<div id="93b23d2a" class="cell markdown"
+data-papermill="{&quot;duration&quot;:9.981e-3,&quot;end_time&quot;:&quot;2024-07-20T16:05:47.164591&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:05:47.154610&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<p><strong>Outlier treatment</strong></p>
+</div>
+<div id="6d132363" class="cell code" data-execution_count="6"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-07-20T16:05:47.187679Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-07-20T16:05:47.186631Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-07-20T16:05:47.241312Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-07-20T16:05:47.240166Z&quot;}"
+data-papermill="{&quot;duration&quot;:6.8904e-2,&quot;end_time&quot;:&quot;2024-07-20T16:05:47.243941&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:05:47.175037&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>df<span class="op">=</span>df.dropna()</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> detect_and_correct_outliers(df, column):</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Drop NA values before calculating the quantiles</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>    Q1 <span class="op">=</span> df[column].dropna().quantile(<span class="fl">0.25</span>)</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>    Q3 <span class="op">=</span> df[column].dropna().quantile(<span class="fl">0.75</span>)</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>    IQR <span class="op">=</span> Q3 <span class="op">-</span> Q1</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>    lower_bound <span class="op">=</span> Q1 <span class="op">-</span> <span class="fl">1.5</span> <span class="op">*</span> IQR</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>    upper_bound <span class="op">=</span> Q3 <span class="op">+</span> <span class="fl">1.5</span> <span class="op">*</span> IQR</span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>    df[column] <span class="op">=</span> np.where(df[column] <span class="op">&lt;</span> lower_bound, lower_bound, df[column])</span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>    df[column] <span class="op">=</span> np.where(df[column] <span class="op">&gt;</span> upper_bound, upper_bound, df[column])</span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> df</span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Apply outlier correction</span></span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> df.select_dtypes(include<span class="op">=</span>[np.float64, np.int64]).columns:</span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a>    df <span class="op">=</span> detect_and_correct_outliers(df, col)</span>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Outliers corrected.&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Outliers corrected.
+</code></pre>
+</div>
+</div>
+<div id="973706c9" class="cell markdown"
+data-papermill="{&quot;duration&quot;:1.0315e-2,&quot;end_time&quot;:&quot;2024-07-20T16:05:47.264548&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:05:47.254233&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<h1 id="exploratory-data-analysis-starts">Exploratory Data Analysis
+starts</h1>
+</div>
+<div id="b9898acb" class="cell markdown"
+data-papermill="{&quot;duration&quot;:9.713e-3,&quot;end_time&quot;:&quot;2024-07-20T16:05:47.284408&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:05:47.274695&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<p><strong>Univariate Analysis</strong></p>
+</div>
+<div id="e33d64f6" class="cell code" data-execution_count="7"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-07-20T16:05:47.306310Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-07-20T16:05:47.305932Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-07-20T16:05:52.497157Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-07-20T16:05:52.495988Z&quot;}"
+data-papermill="{&quot;duration&quot;:5.206259,&quot;end_time&quot;:&quot;2024-07-20T16:05:52.500604&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:05:47.294345&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Univariate analysis for numerical columns</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>numeric_cols <span class="op">=</span> df.select_dtypes(include<span class="op">=</span>[np.float64, np.int64]).columns</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>df[numeric_cols].hist(bins<span class="op">=</span><span class="dv">15</span>, figsize<span class="op">=</span>(<span class="dv">15</span>, <span class="dv">14</span>))</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_ec5d8c58fa414683bb02663a07b4bc59/2bc27947061c7d63d599798b2ad7de48169c8c8e.png" /></p>
+</div>
+</div>
+<div id="32f849a8" class="cell code" data-execution_count="8"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-07-20T16:05:52.527493Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-07-20T16:05:52.526531Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-07-20T16:05:56.731216Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-07-20T16:05:56.730100Z&quot;}"
+data-papermill="{&quot;duration&quot;:4.225889,&quot;end_time&quot;:&quot;2024-07-20T16:05:56.738410&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:05:52.512521&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># List of columns to plot, excluding specified columns</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>excluded_columns <span class="op">=</span> [<span class="st">&#39;Latitude&#39;</span>, <span class="st">&#39;Longitude&#39;</span>, <span class="st">&#39;Altitude (m)&#39;</span>, <span class="st">&#39;Proximity_to_Water (km)&#39;</span>]</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>columns <span class="op">=</span> [col <span class="cf">for</span> col <span class="kw">in</span> df.columns <span class="cf">if</span> col <span class="kw">not</span> <span class="kw">in</span> excluded_columns]</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Determine the grid size for subplots</span></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>n_cols <span class="op">=</span> <span class="dv">3</span></span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>n_rows <span class="op">=</span> (<span class="bu">len</span>(columns) <span class="op">+</span> n_cols <span class="op">-</span> <span class="dv">1</span>) <span class="op">//</span> n_cols</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a figure and a grid of subplots</span></span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>fig, axes <span class="op">=</span> plt.subplots(n_rows, n_cols, figsize<span class="op">=</span>(<span class="dv">15</span>, <span class="dv">4</span> <span class="op">*</span> n_rows))</span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Flatten the axes array for easy iteration</span></span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a>axes <span class="op">=</span> axes.flatten()</span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot KDE plots in the grid</span></span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, column <span class="kw">in</span> <span class="bu">enumerate</span>(columns):</span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a>    sns.kdeplot(df[column], shade<span class="op">=</span><span class="va">True</span>, ax<span class="op">=</span>axes[i])</span>
+<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a>    axes[i].set_title(<span class="ss">f&#39;KDE plot of </span><span class="sc">{</span>column<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a>    axes[i].set_xlabel(column)</span>
+<span id="cb13-20"><a href="#cb13-20" aria-hidden="true" tabindex="-1"></a>    axes[i].set_ylabel(<span class="st">&#39;Density&#39;</span>)</span>
+<span id="cb13-21"><a href="#cb13-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-22"><a href="#cb13-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Remove empty subplots if any</span></span>
+<span id="cb13-23"><a href="#cb13-23" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> j <span class="kw">in</span> <span class="bu">range</span>(i <span class="op">+</span> <span class="dv">1</span>, <span class="bu">len</span>(axes)):</span>
+<span id="cb13-24"><a href="#cb13-24" aria-hidden="true" tabindex="-1"></a>    fig.delaxes(axes[j])</span>
+<span id="cb13-25"><a href="#cb13-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-26"><a href="#cb13-26" aria-hidden="true" tabindex="-1"></a><span class="co"># Adjust layout to prevent overlap</span></span>
+<span id="cb13-27"><a href="#cb13-27" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb13-28"><a href="#cb13-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-29"><a href="#cb13-29" aria-hidden="true" tabindex="-1"></a><span class="co"># Show the grid of plots</span></span>
+<span id="cb13-30"><a href="#cb13-30" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_ec5d8c58fa414683bb02663a07b4bc59/7bd5cc784a2a6070e1c5244fd2986ac5fdb36fa4.png" /></p>
+</div>
+</div>
+<div id="09d65e6d" class="cell markdown"
+data-papermill="{&quot;duration&quot;:1.8186e-2,&quot;end_time&quot;:&quot;2024-07-20T16:05:56.775106&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:05:56.756920&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<p><strong>Bivariate analysis</strong></p>
+</div>
+<div id="f2f3d4b8" class="cell code" data-execution_count="9"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-07-20T16:05:56.815365Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-07-20T16:05:56.814935Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-07-20T16:07:08.559122Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-07-20T16:07:08.558079Z&quot;}"
+data-papermill="{&quot;duration&quot;:71.808174,&quot;end_time&quot;:&quot;2024-07-20T16:07:08.602571&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:05:56.794397&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a> <span class="co"># Bivariate analysis using pairplot</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>sns.pairplot(df, diag_kind<span class="op">=</span><span class="st">&#39;kde&#39;</span>, corner<span class="op">=</span><span class="va">True</span>, palette<span class="op">=</span><span class="st">&#39;dark&#39;</span>)</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>plt.suptitle(<span class="st">&#39;Pair Plots of Numerical Features&#39;</span>, y<span class="op">=</span><span class="fl">1.02</span>)</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_ec5d8c58fa414683bb02663a07b4bc59/eceb99ba7db4bd66c818e6d9c19e0d494428c076.png" /></p>
+</div>
+</div>
+<div id="2c720623" class="cell code" data-execution_count="10"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-07-20T16:07:08.664913Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-07-20T16:07:08.663790Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-07-20T16:07:09.141810Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-07-20T16:07:09.140710Z&quot;}"
+data-papermill="{&quot;duration&quot;:0.511894,&quot;end_time&quot;:&quot;2024-07-20T16:07:09.144070&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:07:08.632176&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>plt.hexbin(df[<span class="st">&#39;Avg_Temp (°C)&#39;</span>], df[<span class="st">&#39;Humidity (%)&#39;</span>], gridsize<span class="op">=</span><span class="dv">50</span>, cmap<span class="op">=</span><span class="st">&#39;Blues&#39;</span>)</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>plt.colorbar(label<span class="op">=</span><span class="st">&#39;Count&#39;</span>)</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Avg_Temp (°C)&#39;</span>)</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Humidity (%)&#39;</span>)</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Hexbin plot of Avg_Temp vs Humidity&#39;</span>)</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_ec5d8c58fa414683bb02663a07b4bc59/5c552630d5e3f318c444b1bfbab661795b4bc269.png" /></p>
+</div>
+</div>
+<div id="0d355122" class="cell code" data-execution_count="11"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-07-20T16:07:09.208975Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-07-20T16:07:09.207688Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-07-20T16:07:10.070363Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-07-20T16:07:10.069072Z&quot;}"
+data-papermill="{&quot;duration&quot;:0.898092,&quot;end_time&quot;:&quot;2024-07-20T16:07:10.072903&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:07:09.174811&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>sns.jointplot(x<span class="op">=</span><span class="st">&#39;Avg_Temp (°C)&#39;</span>, y<span class="op">=</span><span class="st">&#39;Humidity (%)&#39;</span>, data<span class="op">=</span>df, kind<span class="op">=</span><span class="st">&#39;reg&#39;</span>)</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_ec5d8c58fa414683bb02663a07b4bc59/f9b3a05a762a6dda51b9517cf5b94e0d9bf0d9b1.png" /></p>
+</div>
+</div>
+<div id="db034117" class="cell code" data-execution_count="12"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-07-20T16:07:10.137445Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-07-20T16:07:10.137061Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-07-20T16:07:10.677503Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-07-20T16:07:10.676078Z&quot;}"
+data-papermill="{&quot;duration&quot;:0.576047,&quot;end_time&quot;:&quot;2024-07-20T16:07:10.680151&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:07:10.104104&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>sns.lmplot(x<span class="op">=</span><span class="st">&#39;Avg_Temp (°C)&#39;</span>, y<span class="op">=</span><span class="st">&#39;Humidity (%)&#39;</span>, data<span class="op">=</span>df)</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Regression plot of Avg_Temp vs Humidity&#39;</span>)</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_ec5d8c58fa414683bb02663a07b4bc59/79dbd0c89db97648ac9049bc865f112c87df46e8.png" /></p>
+</div>
+</div>
+<div id="e5abc412" class="cell code" data-execution_count="13"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-07-20T16:07:10.745207Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-07-20T16:07:10.744842Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-07-20T16:07:11.918527Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-07-20T16:07:11.917464Z&quot;}"
+data-papermill="{&quot;duration&quot;:1.212751,&quot;end_time&quot;:&quot;2024-07-20T16:07:11.924355&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:07:10.711604&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">8</span>))</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>correlation_matrix <span class="op">=</span> df.corr()</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>sns.heatmap(correlation_matrix, annot<span class="op">=</span><span class="va">True</span>, cmap<span class="op">=</span><span class="st">&#39;coolwarm&#39;</span>)</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Correlation Heatmap&#39;</span>)</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_ec5d8c58fa414683bb02663a07b4bc59/06b4532813c1f78ffbc8126764e3722a2e3e1b45.png" /></p>
+</div>
+</div>
+<div id="3d52194d" class="cell code" data-execution_count="14"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-07-20T16:07:12.001812Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-07-20T16:07:12.001411Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-07-20T16:07:12.006280Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-07-20T16:07:12.005155Z&quot;}"
+data-papermill="{&quot;duration&quot;:4.6611e-2,&quot;end_time&quot;:&quot;2024-07-20T16:07:12.008628&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:07:11.962017&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># pair_columns = [&#39;Avg_Temp (°C)&#39;, &#39;Precipitation (mm)&#39;, &#39;Humidity (%)&#39;, &#39;Wind_Speed (m/s)&#39;]</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="co"># for i in range(len(pair_columns)):</span></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a><span class="co">#     for j in range(i + 1, len(pair_columns)):</span></span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a><span class="co">#         plt.figure(figsize=(10, 6))</span></span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a><span class="co">#         sns.scatterplot(x=df[pair_columns[i]], y=df[pair_columns[j]])</span></span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a><span class="co">#         plt.title(f&#39;Scatter plot of {pair_columns[i]} vs {pair_columns[j]}&#39;)</span></span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a><span class="co">#         plt.xlabel(pair_columns[i])</span></span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a><span class="co">#         plt.ylabel(pair_columns[j])</span></span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a><span class="co">#         plt.show()</span></span></code></pre></div>
+</div>
+<div id="f84e15e7" class="cell markdown"
+data-papermill="{&quot;duration&quot;:3.8578e-2,&quot;end_time&quot;:&quot;2024-07-20T16:07:12.085354&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:07:12.046776&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<p><strong>Multivariate Analysis</strong></p>
+</div>
+<div id="603e413c" class="cell code" data-execution_count="15"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-07-20T16:07:12.164776Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-07-20T16:07:12.164408Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-07-20T16:07:13.263175Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-07-20T16:07:13.261807Z&quot;}"
+data-papermill="{&quot;duration&quot;:1.143577,&quot;end_time&quot;:&quot;2024-07-20T16:07:13.268242&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:07:12.124665&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Correlation matrix</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>corr_matrix <span class="op">=</span> df.corr()</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">15</span>, <span class="dv">10</span>))</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>sns.heatmap(corr_matrix, annot<span class="op">=</span><span class="va">True</span>, cmap<span class="op">=</span><span class="st">&#39;coolwarm&#39;</span>)</span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_ec5d8c58fa414683bb02663a07b4bc59/94e4ee4ca8ce7a5c448dd4ccc1c1590dcdc77ccc.png" /></p>
+</div>
+</div>
+<div id="f9c3e57f" class="cell code" data-execution_count="16"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-07-20T16:07:13.354719Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-07-20T16:07:13.354325Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-07-20T16:07:18.495046Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-07-20T16:07:18.493812Z&quot;}"
+data-papermill="{&quot;duration&quot;:5.187466,&quot;end_time&quot;:&quot;2024-07-20T16:07:18.497943&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:07:13.310477&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 4. Facet Grid (e.g., Avg_Temp vs Max_Temp conditioned on Month)</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>g <span class="op">=</span> sns.FacetGrid(df, col<span class="op">=</span><span class="st">&#39;Month&#39;</span>, col_wrap<span class="op">=</span><span class="dv">4</span>, height<span class="op">=</span><span class="dv">4</span>)</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>g.<span class="bu">map</span>(sns.scatterplot, <span class="st">&#39;Avg_Temp (°C)&#39;</span>, <span class="st">&#39;Max_Temp (°C)&#39;</span>)</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>g.add_legend()</span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>plt.suptitle(<span class="st">&#39;Facet Grid of Avg_Temp vs Max_Temp by Month&#39;</span>, y<span class="op">=</span><span class="fl">1.02</span>)</span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_ec5d8c58fa414683bb02663a07b4bc59/3e8645c4785361fde16f6644342598c5f70bb360.png" /></p>
+</div>
+</div>
+<div id="fe3dbf24" class="cell code" data-execution_count="17"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-07-20T16:07:18.587034Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-07-20T16:07:18.586611Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-07-20T16:07:20.687885Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-07-20T16:07:20.686709Z&quot;}"
+data-papermill="{&quot;duration&quot;:2.151453,&quot;end_time&quot;:&quot;2024-07-20T16:07:20.692924&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:07:18.541471&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.cluster.hierarchy <span class="im">import</span> linkage, dendrogram</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Compute the correlation matrix</span></span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>correlation_matrix <span class="op">=</span> df.corr()</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Check for NaN or infinite values</span></span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="kw">not</span> np.<span class="bu">all</span>(np.isfinite(correlation_matrix)):</span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;Correlation matrix contains NaN or infinite values.&quot;</span>)</span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Handle NaN or infinite values by replacing them with zero or some other value</span></span>
+<span id="cb22-11"><a href="#cb22-11" aria-hidden="true" tabindex="-1"></a>correlation_matrix <span class="op">=</span> correlation_matrix.replace([np.inf, <span class="op">-</span>np.inf], np.nan)</span>
+<span id="cb22-12"><a href="#cb22-12" aria-hidden="true" tabindex="-1"></a>correlation_matrix <span class="op">=</span> correlation_matrix.fillna(<span class="dv">0</span>)</span>
+<span id="cb22-13"><a href="#cb22-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-14"><a href="#cb22-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Compute the linkage matrix</span></span>
+<span id="cb22-15"><a href="#cb22-15" aria-hidden="true" tabindex="-1"></a>Z <span class="op">=</span> linkage(correlation_matrix, <span class="st">&#39;ward&#39;</span>)</span>
+<span id="cb22-16"><a href="#cb22-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the dendrogram</span></span>
+<span id="cb22-17"><a href="#cb22-17" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">8</span>))</span>
+<span id="cb22-18"><a href="#cb22-18" aria-hidden="true" tabindex="-1"></a>dendrogram(Z, labels<span class="op">=</span>correlation_matrix.columns)</span>
+<span id="cb22-19"><a href="#cb22-19" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Hierarchical Clustering Dendrogram&#39;</span>)</span>
+<span id="cb22-20"><a href="#cb22-20" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Variables&#39;</span>)</span>
+<span id="cb22-21"><a href="#cb22-21" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Distance&#39;</span>)</span>
+<span id="cb22-22"><a href="#cb22-22" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb22-23"><a href="#cb22-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-24"><a href="#cb22-24" aria-hidden="true" tabindex="-1"></a><span class="co"># Cluster map</span></span>
+<span id="cb22-25"><a href="#cb22-25" aria-hidden="true" tabindex="-1"></a>sns.clustermap(correlation_matrix, annot<span class="op">=</span><span class="va">True</span>, cmap<span class="op">=</span><span class="st">&#39;coolwarm&#39;</span>, method<span class="op">=</span><span class="st">&#39;ward&#39;</span>)</span>
+<span id="cb22-26"><a href="#cb22-26" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Cluster Heatmap&#39;</span>)</span>
+<span id="cb22-27"><a href="#cb22-27" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Correlation matrix contains NaN or infinite values.
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_ec5d8c58fa414683bb02663a07b4bc59/5acb67a03644d83646b4c5c22e300d88334bbe5d.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_ec5d8c58fa414683bb02663a07b4bc59/558c2b126dc4688671f65a3d660fe8c6b5532834.png" /></p>
+</div>
+</div>
+<div id="8aa8b33b" class="cell code" data-execution_count="18"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-07-20T16:07:20.790669Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-07-20T16:07:20.790309Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-07-20T16:07:21.310344Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-07-20T16:07:21.309062Z&quot;}"
+data-papermill="{&quot;duration&quot;:0.573012,&quot;end_time&quot;:&quot;2024-07-20T16:07:21.313890&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:07:20.740878&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> math <span class="im">import</span> pi</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Prepare data</span></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>categories <span class="op">=</span> [<span class="st">&#39;Avg_Temp (°C)&#39;</span>, <span class="st">&#39;Precipitation (mm)&#39;</span>, <span class="st">&#39;Humidity (%)&#39;</span>, <span class="st">&#39;Wind_Speed (m/s)&#39;</span>, <span class="st">&#39;CO2_Concentration (ppm)&#39;</span>]</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>values <span class="op">=</span> df[categories].mean().values.flatten().tolist()</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>values <span class="op">+=</span> values[:<span class="dv">1</span>]</span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Number of variables</span></span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a>N <span class="op">=</span> <span class="bu">len</span>(categories)</span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-11"><a href="#cb24-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Compute angle of each axis</span></span>
+<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a>angles <span class="op">=</span> [n <span class="op">/</span> <span class="bu">float</span>(N) <span class="op">*</span> <span class="dv">2</span> <span class="op">*</span> pi <span class="cf">for</span> n <span class="kw">in</span> <span class="bu">range</span>(N)]</span>
+<span id="cb24-13"><a href="#cb24-13" aria-hidden="true" tabindex="-1"></a>angles <span class="op">+=</span> angles[:<span class="dv">1</span>]</span>
+<span id="cb24-14"><a href="#cb24-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-15"><a href="#cb24-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot</span></span>
+<span id="cb24-16"><a href="#cb24-16" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">8</span>))</span>
+<span id="cb24-17"><a href="#cb24-17" aria-hidden="true" tabindex="-1"></a>ax <span class="op">=</span> plt.subplot(<span class="dv">111</span>, polar<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb24-18"><a href="#cb24-18" aria-hidden="true" tabindex="-1"></a>plt.xticks(angles[:<span class="op">-</span><span class="dv">1</span>], categories)</span>
+<span id="cb24-19"><a href="#cb24-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-20"><a href="#cb24-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Draw one axe per variable and add labels</span></span>
+<span id="cb24-21"><a href="#cb24-21" aria-hidden="true" tabindex="-1"></a>ax.plot(angles, values)</span>
+<span id="cb24-22"><a href="#cb24-22" aria-hidden="true" tabindex="-1"></a>ax.fill(angles, values, <span class="st">&#39;b&#39;</span>, alpha<span class="op">=</span><span class="fl">0.1</span>)</span>
+<span id="cb24-23"><a href="#cb24-23" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Average values for selected variables&#39;</span>)</span>
+<span id="cb24-24"><a href="#cb24-24" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_ec5d8c58fa414683bb02663a07b4bc59/aa0f1c34078e4fe4687e6097becfa2f92529c850.png" /></p>
+</div>
+</div>
+<div id="1b565fc2" class="cell code" data-execution_count="19"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-07-20T16:07:21.435715Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-07-20T16:07:21.435320Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-07-20T16:07:21.725485Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-07-20T16:07:21.724190Z&quot;}"
+data-papermill="{&quot;duration&quot;:0.353155,&quot;end_time&quot;:&quot;2024-07-20T16:07:21.729168&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:07:21.376013&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> mpl_toolkits.mplot3d <span class="im">import</span> Axes3D</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a><span class="co"># 3D scatter plot</span></span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">8</span>))</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>ax <span class="op">=</span> fig.add_subplot(<span class="dv">111</span>, projection<span class="op">=</span><span class="st">&#39;3d&#39;</span>)</span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>ax.scatter(df[<span class="st">&#39;Avg_Temp (°C)&#39;</span>], df[<span class="st">&#39;Humidity (%)&#39;</span>], df[<span class="st">&#39;Wind_Speed (m/s)&#39;</span>])</span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>ax.set_xlabel(<span class="st">&#39;Avg_Temp (°C)&#39;</span>)</span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a>ax.set_ylabel(<span class="st">&#39;Humidity (%)&#39;</span>)</span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a>ax.set_zlabel(<span class="st">&#39;Wind_Speed (m/s)&#39;</span>)</span>
+<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a>ax.set_title(<span class="st">&#39;3D Scatter plot of Avg_Temp, Humidity, and Wind_Speed&#39;</span>)</span>
+<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_ec5d8c58fa414683bb02663a07b4bc59/06bd7db380958230d4c5ce64fa2084692eb1ed0f.png" /></p>
+</div>
+</div>
+<div id="26347ec4" class="cell code" data-execution_count="20"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-07-20T16:07:21.836293Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-07-20T16:07:21.835921Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-07-20T16:07:22.850694Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-07-20T16:07:22.849325Z&quot;}"
+data-papermill="{&quot;duration&quot;:1.071612,&quot;end_time&quot;:&quot;2024-07-20T16:07:22.853707&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:07:21.782095&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>features_to_plot <span class="op">=</span> [<span class="st">&#39;Avg_Temp (°C)&#39;</span>, <span class="st">&#39;Max_Temp (°C)&#39;</span>, <span class="st">&#39;Min_Temp (°C)&#39;</span>, <span class="st">&#39;Precipitation (mm)&#39;</span>, <span class="st">&#39;Humidity (%)&#39;</span>]</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">15</span>, <span class="dv">7</span>))</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> feature <span class="kw">in</span> features_to_plot:</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>    sns.lineplot(data<span class="op">=</span>df, x<span class="op">=</span><span class="st">&#39;Year&#39;</span>, y<span class="op">=</span>feature, label<span class="op">=</span>feature)</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Trends Over Time&#39;</span>)</span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Year&#39;</span>)</span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Value&#39;</span>)</span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_ec5d8c58fa414683bb02663a07b4bc59/eb48d94772dc64321986816ca364dd6313461179.png" /></p>
+</div>
+</div>
+<div id="a9db987e" class="cell markdown"
+data-papermill="{&quot;duration&quot;:0.117224,&quot;end_time&quot;:&quot;2024-07-20T16:07:23.026104&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:07:22.908880&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<h1 id="feature-engineering">Feature Engineering</h1>
+</div>
+<div id="f60eeb1e" class="cell code" data-execution_count="21"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-07-20T16:07:23.136689Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-07-20T16:07:23.136278Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-07-20T16:07:23.145248Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-07-20T16:07:23.144037Z&quot;}"
+data-papermill="{&quot;duration&quot;:6.7574e-2,&quot;end_time&quot;:&quot;2024-07-20T16:07:23.147784&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:07:23.080210&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Assuming all columns are features except for Year and Month</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>features <span class="op">=</span> df.drop([<span class="st">&#39;Year&#39;</span>, <span class="st">&#39;Month&#39;</span>], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>target_cols <span class="op">=</span> [<span class="st">&#39;Avg_Temp (°C)&#39;</span>, <span class="st">&#39;Precipitation (mm)&#39;</span>, <span class="st">&#39;Solar_Irradiance (W/m²)&#39;</span>, <span class="st">&#39;Cloud_Cover (%)&#39;</span>, <span class="st">&#39;CO2_Concentration (ppm)&#39;</span>, <span class="st">&#39;Sea_Surface_Temp (°C)&#39;</span>]</span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Separating features and targets</span></span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> features.drop(target_cols, axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> features[target_cols]</span></code></pre></div>
+</div>
+<div id="aabfa758" class="cell markdown"
+data-papermill="{&quot;duration&quot;:5.3921e-2,&quot;end_time&quot;:&quot;2024-07-20T16:07:23.257157&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:07:23.203236&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<h1 id="model-development">Model Development</h1>
+</div>
+<div id="bcb90a69" class="cell markdown"
+data-papermill="{&quot;duration&quot;:5.3689e-2,&quot;end_time&quot;:&quot;2024-07-20T16:07:23.369502&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:07:23.315813&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<p><strong>Regression</strong></p>
+</div>
+<div id="5ef2d3e7" class="cell code" data-execution_count="22"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-07-20T16:07:23.479769Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-07-20T16:07:23.478706Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-07-20T16:07:38.673433Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-07-20T16:07:38.672373Z&quot;}"
+data-papermill="{&quot;duration&quot;:15.252726,&quot;end_time&quot;:&quot;2024-07-20T16:07:38.676195&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:07:23.423469&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> xgboost <span class="im">as</span> xgb</span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split, GridSearchCV</span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LinearRegression, Ridge, Lasso, ElasticNet</span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.tree <span class="im">import</span> DecisionTreeRegressor</span>
+<span id="cb28-9"><a href="#cb28-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestRegressor, GradientBoostingRegressor</span>
+<span id="cb28-10"><a href="#cb28-10" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.svm <span class="im">import</span> SVR</span>
+<span id="cb28-11"><a href="#cb28-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.neighbors <span class="im">import</span> KNeighborsRegressor</span>
+<span id="cb28-12"><a href="#cb28-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> mean_squared_error, mean_absolute_error, r2_score</span>
+<span id="cb28-13"><a href="#cb28-13" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.models <span class="im">import</span> Sequential</span>
+<span id="cb28-14"><a href="#cb28-14" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.layers <span class="im">import</span> Dense</span>
+<span id="cb28-15"><a href="#cb28-15" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> tensorflow <span class="im">as</span> tf</span>
+<span id="cb28-16"><a href="#cb28-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-17"><a href="#cb28-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Defining the models and hyperparameters for GridSearchCV</span></span>
+<span id="cb28-18"><a href="#cb28-18" aria-hidden="true" tabindex="-1"></a>models <span class="op">=</span> {</span>
+<span id="cb28-19"><a href="#cb28-19" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;LinearRegression&#39;</span>: LinearRegression(),</span>
+<span id="cb28-20"><a href="#cb28-20" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;Ridge&#39;</span>: Ridge(),</span>
+<span id="cb28-21"><a href="#cb28-21" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;Lasso&#39;</span>: Lasso(),</span>
+<span id="cb28-22"><a href="#cb28-22" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;ElasticNet&#39;</span>: ElasticNet(),</span>
+<span id="cb28-23"><a href="#cb28-23" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;DecisionTree&#39;</span>: DecisionTreeRegressor(random_state<span class="op">=</span><span class="dv">42</span>),</span>
+<span id="cb28-24"><a href="#cb28-24" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;RandomForest&#39;</span>: RandomForestRegressor(random_state<span class="op">=</span><span class="dv">42</span>),</span>
+<span id="cb28-25"><a href="#cb28-25" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;GradientBoosting&#39;</span>: GradientBoostingRegressor(random_state<span class="op">=</span><span class="dv">42</span>),</span>
+<span id="cb28-26"><a href="#cb28-26" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;SVR&#39;</span>: SVR(),</span>
+<span id="cb28-27"><a href="#cb28-27" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;KNeighbors&#39;</span>: KNeighborsRegressor(),</span>
+<span id="cb28-28"><a href="#cb28-28" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;XGBoost&#39;</span>: xgb.XGBRegressor(random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb28-29"><a href="#cb28-29" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb28-30"><a href="#cb28-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-31"><a href="#cb28-31" aria-hidden="true" tabindex="-1"></a>params <span class="op">=</span> {</span>
+<span id="cb28-32"><a href="#cb28-32" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;LinearRegression&#39;</span>: {},</span>
+<span id="cb28-33"><a href="#cb28-33" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;Ridge&#39;</span>: {<span class="st">&#39;alpha&#39;</span>: [<span class="fl">0.1</span>, <span class="dv">1</span>, <span class="dv">10</span>]},</span>
+<span id="cb28-34"><a href="#cb28-34" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;Lasso&#39;</span>: {<span class="st">&#39;alpha&#39;</span>: [<span class="fl">0.1</span>, <span class="dv">1</span>, <span class="dv">10</span>]},</span>
+<span id="cb28-35"><a href="#cb28-35" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;ElasticNet&#39;</span>: {<span class="st">&#39;alpha&#39;</span>: [<span class="fl">0.1</span>, <span class="dv">1</span>, <span class="dv">10</span>], <span class="st">&#39;l1_ratio&#39;</span>: [<span class="fl">0.1</span>, <span class="fl">0.5</span>, <span class="fl">0.9</span>]},</span>
+<span id="cb28-36"><a href="#cb28-36" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;DecisionTree&#39;</span>: {</span>
+<span id="cb28-37"><a href="#cb28-37" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;max_depth&#39;</span>: [<span class="va">None</span>, <span class="dv">10</span>, <span class="dv">20</span>],</span>
+<span id="cb28-38"><a href="#cb28-38" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;min_samples_split&#39;</span>: [<span class="dv">2</span>, <span class="dv">5</span>],</span>
+<span id="cb28-39"><a href="#cb28-39" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;min_samples_leaf&#39;</span>: [<span class="dv">1</span>, <span class="dv">2</span>]</span>
+<span id="cb28-40"><a href="#cb28-40" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb28-41"><a href="#cb28-41" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;RandomForest&#39;</span>: {</span>
+<span id="cb28-42"><a href="#cb28-42" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;n_estimators&#39;</span>: [<span class="dv">100</span>, <span class="dv">200</span>],</span>
+<span id="cb28-43"><a href="#cb28-43" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;max_depth&#39;</span>: [<span class="va">None</span>, <span class="dv">10</span>, <span class="dv">20</span>],</span>
+<span id="cb28-44"><a href="#cb28-44" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;min_samples_split&#39;</span>: [<span class="dv">2</span>, <span class="dv">5</span>],</span>
+<span id="cb28-45"><a href="#cb28-45" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;min_samples_leaf&#39;</span>: [<span class="dv">1</span>, <span class="dv">2</span>]</span>
+<span id="cb28-46"><a href="#cb28-46" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb28-47"><a href="#cb28-47" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;GradientBoosting&#39;</span>: {</span>
+<span id="cb28-48"><a href="#cb28-48" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;n_estimators&#39;</span>: [<span class="dv">100</span>, <span class="dv">200</span>],</span>
+<span id="cb28-49"><a href="#cb28-49" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;learning_rate&#39;</span>: [<span class="fl">0.01</span>, <span class="fl">0.1</span>],</span>
+<span id="cb28-50"><a href="#cb28-50" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;max_depth&#39;</span>: [<span class="dv">3</span>, <span class="dv">5</span>],</span>
+<span id="cb28-51"><a href="#cb28-51" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;min_samples_split&#39;</span>: [<span class="dv">2</span>, <span class="dv">5</span>],</span>
+<span id="cb28-52"><a href="#cb28-52" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;min_samples_leaf&#39;</span>: [<span class="dv">1</span>, <span class="dv">2</span>]</span>
+<span id="cb28-53"><a href="#cb28-53" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb28-54"><a href="#cb28-54" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;SVR&#39;</span>: {</span>
+<span id="cb28-55"><a href="#cb28-55" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;C&#39;</span>: [<span class="fl">0.1</span>, <span class="dv">1</span>, <span class="dv">10</span>],</span>
+<span id="cb28-56"><a href="#cb28-56" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;kernel&#39;</span>: [<span class="st">&#39;linear&#39;</span>, <span class="st">&#39;rbf&#39;</span>],</span>
+<span id="cb28-57"><a href="#cb28-57" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;epsilon&#39;</span>: [<span class="fl">0.01</span>, <span class="fl">0.1</span>, <span class="fl">0.2</span>]</span>
+<span id="cb28-58"><a href="#cb28-58" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb28-59"><a href="#cb28-59" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;KNeighbors&#39;</span>: {</span>
+<span id="cb28-60"><a href="#cb28-60" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;n_neighbors&#39;</span>: [<span class="dv">3</span>, <span class="dv">5</span>, <span class="dv">7</span>],</span>
+<span id="cb28-61"><a href="#cb28-61" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;weights&#39;</span>: [<span class="st">&#39;uniform&#39;</span>, <span class="st">&#39;distance&#39;</span>],</span>
+<span id="cb28-62"><a href="#cb28-62" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;p&#39;</span>: [<span class="dv">1</span>, <span class="dv">2</span>]</span>
+<span id="cb28-63"><a href="#cb28-63" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb28-64"><a href="#cb28-64" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;XGBoost&#39;</span>: {</span>
+<span id="cb28-65"><a href="#cb28-65" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;n_estimators&#39;</span>: [<span class="dv">100</span>, <span class="dv">200</span>],</span>
+<span id="cb28-66"><a href="#cb28-66" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;learning_rate&#39;</span>: [<span class="fl">0.01</span>, <span class="fl">0.1</span>],</span>
+<span id="cb28-67"><a href="#cb28-67" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;max_depth&#39;</span>: [<span class="dv">3</span>, <span class="dv">5</span>],</span>
+<span id="cb28-68"><a href="#cb28-68" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;min_child_weight&#39;</span>: [<span class="dv">1</span>, <span class="dv">3</span>]</span>
+<span id="cb28-69"><a href="#cb28-69" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb28-70"><a href="#cb28-70" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>2024-07-20 16:07:27.251156: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-07-20 16:07:27.251292: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-07-20 16:07:27.411773: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+</code></pre>
+</div>
+</div>
+<div id="4b71b8c2" class="cell code" data-execution_count="23"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-07-20T16:07:38.789235Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-07-20T16:07:38.788552Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-07-20T16:08:55.261624Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-07-20T16:08:55.260395Z&quot;}"
+data-papermill="{&quot;duration&quot;:76.531425,&quot;end_time&quot;:&quot;2024-07-20T16:08:55.264185&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:07:38.732760&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>target_cols <span class="op">=</span> y.columns  <span class="co"># List of target column names</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Spliting the data into training and testing sets</span></span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(X, y, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Initializing a dictionary to store the best models for each target</span></span>
+<span id="cb30-7"><a href="#cb30-7" aria-hidden="true" tabindex="-1"></a>best_models <span class="op">=</span> {target: <span class="va">None</span> <span class="cf">for</span> target <span class="kw">in</span> target_cols}</span>
+<span id="cb30-8"><a href="#cb30-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-9"><a href="#cb30-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Hyperparameter tuning and model training</span></span>
+<span id="cb30-10"><a href="#cb30-10" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> target <span class="kw">in</span> target_cols:</span>
+<span id="cb30-11"><a href="#cb30-11" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Hyperparameter tuning for </span><span class="sc">{</span>target<span class="sc">}</span><span class="ss">...&quot;</span>)</span>
+<span id="cb30-12"><a href="#cb30-12" aria-hidden="true" tabindex="-1"></a>    best_score <span class="op">=</span> <span class="bu">float</span>(<span class="st">&#39;inf&#39;</span>)</span>
+<span id="cb30-13"><a href="#cb30-13" aria-hidden="true" tabindex="-1"></a>    best_model <span class="op">=</span> <span class="va">None</span></span>
+<span id="cb30-14"><a href="#cb30-14" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb30-15"><a href="#cb30-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> model_name <span class="kw">in</span> models:</span>
+<span id="cb30-16"><a href="#cb30-16" aria-hidden="true" tabindex="-1"></a>        grid_search <span class="op">=</span> GridSearchCV(models[model_name], params[model_name], cv<span class="op">=</span><span class="dv">3</span>, scoring<span class="op">=</span><span class="st">&#39;neg_mean_squared_error&#39;</span>, n_jobs<span class="op">=-</span><span class="dv">1</span>)</span>
+<span id="cb30-17"><a href="#cb30-17" aria-hidden="true" tabindex="-1"></a>        grid_search.fit(X_train, y_train[target])</span>
+<span id="cb30-18"><a href="#cb30-18" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="op">-</span>grid_search.best_score_ <span class="op">&lt;</span> best_score:</span>
+<span id="cb30-19"><a href="#cb30-19" aria-hidden="true" tabindex="-1"></a>            best_score <span class="op">=</span> <span class="op">-</span>grid_search.best_score_</span>
+<span id="cb30-20"><a href="#cb30-20" aria-hidden="true" tabindex="-1"></a>            best_model <span class="op">=</span> grid_search.best_estimator_</span>
+<span id="cb30-21"><a href="#cb30-21" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb30-22"><a href="#cb30-22" aria-hidden="true" tabindex="-1"></a>    best_models[target] <span class="op">=</span> best_model</span>
+<span id="cb30-23"><a href="#cb30-23" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb30-24"><a href="#cb30-24" aria-hidden="true" tabindex="-1"></a><span class="co"># Initializing dictionaries to store evaluation metrics for regression models</span></span>
+<span id="cb30-25"><a href="#cb30-25" aria-hidden="true" tabindex="-1"></a>regression_metrics <span class="op">=</span> {target: {} <span class="cf">for</span> target <span class="kw">in</span> target_cols}</span>
+<span id="cb30-26"><a href="#cb30-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-27"><a href="#cb30-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculatiom of evaluation metrics for each target using regression models</span></span>
+<span id="cb30-28"><a href="#cb30-28" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> target <span class="kw">in</span> target_cols:</span>
+<span id="cb30-29"><a href="#cb30-29" aria-hidden="true" tabindex="-1"></a>    predictions <span class="op">=</span> best_models[target].predict(X_test)</span>
+<span id="cb30-30"><a href="#cb30-30" aria-hidden="true" tabindex="-1"></a>    regression_metrics[target][<span class="st">&#39;Model&#39;</span>] <span class="op">=</span> <span class="bu">type</span>(best_models[target]).<span class="va">__name__</span></span>
+<span id="cb30-31"><a href="#cb30-31" aria-hidden="true" tabindex="-1"></a>    regression_metrics[target][<span class="st">&#39;RMSE&#39;</span>] <span class="op">=</span> np.sqrt(mean_squared_error(y_test[target], predictions))</span>
+<span id="cb30-32"><a href="#cb30-32" aria-hidden="true" tabindex="-1"></a>    regression_metrics[target][<span class="st">&#39;MAE&#39;</span>] <span class="op">=</span> mean_absolute_error(y_test[target], predictions)</span>
+<span id="cb30-33"><a href="#cb30-33" aria-hidden="true" tabindex="-1"></a>    regression_metrics[target][<span class="st">&#39;R²&#39;</span>] <span class="op">=</span> r2_score(y_test[target], predictions)</span>
+<span id="cb30-34"><a href="#cb30-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-35"><a href="#cb30-35" aria-hidden="true" tabindex="-1"></a><span class="co"># Conversion of metrics to DataFrame for better visualization</span></span>
+<span id="cb30-36"><a href="#cb30-36" aria-hidden="true" tabindex="-1"></a>regression_metrics_df <span class="op">=</span> pd.DataFrame(regression_metrics).T</span>
+<span id="cb30-37"><a href="#cb30-37" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Regression Models Evaluation Metrics:&quot;</span>)</span>
+<span id="cb30-38"><a href="#cb30-38" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(regression_metrics_df)</span>
+<span id="cb30-39"><a href="#cb30-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-40"><a href="#cb30-40" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> target <span class="kw">in</span> target_cols:</span>
+<span id="cb30-41"><a href="#cb30-41" aria-hidden="true" tabindex="-1"></a>    plt.figure(figsize<span class="op">=</span>(<span class="dv">7</span>, <span class="dv">4</span>))</span>
+<span id="cb30-42"><a href="#cb30-42" aria-hidden="true" tabindex="-1"></a>    plt.scatter(y_test[target], predictions, alpha<span class="op">=</span><span class="fl">0.3</span>)</span>
+<span id="cb30-43"><a href="#cb30-43" aria-hidden="true" tabindex="-1"></a>    plt.plot([y_test[target].<span class="bu">min</span>(), y_test[target].<span class="bu">max</span>()], [y_test[target].<span class="bu">min</span>(), y_test[target].<span class="bu">max</span>()], <span class="st">&#39;r--&#39;</span>, lw<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb30-44"><a href="#cb30-44" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(<span class="st">&#39;Actual&#39;</span>)</span>
+<span id="cb30-45"><a href="#cb30-45" aria-hidden="true" tabindex="-1"></a>    plt.ylabel(<span class="st">&#39;Predicted&#39;</span>)</span>
+<span id="cb30-46"><a href="#cb30-46" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="ss">f&#39;Actual vs Predicted for </span><span class="sc">{</span>target<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb30-47"><a href="#cb30-47" aria-hidden="true" tabindex="-1"></a>    plt.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Hyperparameter tuning for Avg_Temp (°C)...
+Hyperparameter tuning for Precipitation (mm)...
+Hyperparameter tuning for Solar_Irradiance (W/m²)...
+Hyperparameter tuning for Cloud_Cover (%)...
+Hyperparameter tuning for CO2_Concentration (ppm)...
+Hyperparameter tuning for Sea_Surface_Temp (°C)...
+Regression Models Evaluation Metrics:
+                                             Model       RMSE        MAE  \
+Avg_Temp (°C)                                  SVR   9.458022   7.981209   
+Precipitation (mm)           RandomForestRegressor  116.70625  90.094259   
+Solar_Irradiance (W/m²)                        SVR  69.476756  59.404898   
+Cloud_Cover (%)                                SVR  32.024411  29.782873   
+CO2_Concentration (ppm)                 ElasticNet  16.541173  13.064797   
+Sea_Surface_Temp (°C)    GradientBoostingRegressor   8.567078    7.41878   
+
+                               R²  
+Avg_Temp (°C)           -0.070562  
+Precipitation (mm)      -0.260884  
+Solar_Irradiance (W/m²) -0.038793  
+Cloud_Cover (%)         -0.523847  
+CO2_Concentration (ppm) -1.818164  
+Sea_Surface_Temp (°C)   -0.892506  
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_ec5d8c58fa414683bb02663a07b4bc59/72b524a14279583aad3e650a3d7cfe589113b362.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_ec5d8c58fa414683bb02663a07b4bc59/1e33c337437df76a8849d551175b2457e42e9a5b.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_ec5d8c58fa414683bb02663a07b4bc59/6ac7b284e4d802a4b0ca87ffed019f32deea98ab.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_ec5d8c58fa414683bb02663a07b4bc59/583abf4dc8066084e13d3c6e86ac107380c31f35.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_ec5d8c58fa414683bb02663a07b4bc59/3ae49bad287cb3878eab4b8ccb9c3d5e36afda0a.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_ec5d8c58fa414683bb02663a07b4bc59/ab34695ec2dccd9cf603a35d29d1b01b163af891.png" /></p>
+</div>
+</div>
+<div id="7ff5daf8" class="cell markdown"
+data-papermill="{&quot;duration&quot;:5.7414e-2,&quot;end_time&quot;:&quot;2024-07-20T16:08:55.379940&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:08:55.322526&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<h1 id="deep-learning">Deep Learning</h1>
+</div>
+<div id="b965e246" class="cell code" data-execution_count="24"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-07-20T16:08:55.497721Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-07-20T16:08:55.496726Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-07-20T16:09:13.356474Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-07-20T16:09:13.355212Z&quot;}"
+data-papermill="{&quot;duration&quot;:17.922559,&quot;end_time&quot;:&quot;2024-07-20T16:09:13.359697&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:08:55.437138&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> create_model(input_dim):</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>    model <span class="op">=</span> Sequential()</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>    model.add(Dense(<span class="dv">64</span>, input_dim<span class="op">=</span>input_dim, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>))</span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>    model.add(Dense(<span class="dv">32</span>, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>))</span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>    model.add(Dense(<span class="dv">1</span>))</span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a>    model.<span class="bu">compile</span>(optimizer<span class="op">=</span><span class="st">&#39;adam&#39;</span>, loss<span class="op">=</span><span class="st">&#39;mse&#39;</span>)</span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> model</span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a>dl_models <span class="op">=</span> {target: create_model(X_train.shape[<span class="dv">1</span>]) <span class="cf">for</span> target <span class="kw">in</span> target_cols}</span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Training the deep learning models</span></span>
+<span id="cb32-12"><a href="#cb32-12" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> target <span class="kw">in</span> target_cols:</span>
+<span id="cb32-13"><a href="#cb32-13" aria-hidden="true" tabindex="-1"></a>    dl_models[target].fit(X_train, y_train[target], epochs<span class="op">=</span><span class="dv">50</span>, batch_size<span class="op">=</span><span class="dv">10</span>, verbose<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb32-14"><a href="#cb32-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-15"><a href="#cb32-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Making predictions from deep learning models</span></span>
+<span id="cb32-16"><a href="#cb32-16" aria-hidden="true" tabindex="-1"></a>dl_predictions <span class="op">=</span> {target: dl_models[target].predict(X_test).flatten() <span class="cf">for</span> target <span class="kw">in</span> target_cols}</span>
+<span id="cb32-17"><a href="#cb32-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-18"><a href="#cb32-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Initializing dictionaries to store evaluation metrics for deep learning models</span></span>
+<span id="cb32-19"><a href="#cb32-19" aria-hidden="true" tabindex="-1"></a>dl_metrics <span class="op">=</span> {target: {} <span class="cf">for</span> target <span class="kw">in</span> target_cols}</span>
+<span id="cb32-20"><a href="#cb32-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-21"><a href="#cb32-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculation of evaluation metrics for each target using deep learning models</span></span>
+<span id="cb32-22"><a href="#cb32-22" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> target <span class="kw">in</span> target_cols:</span>
+<span id="cb32-23"><a href="#cb32-23" aria-hidden="true" tabindex="-1"></a>    dl_metrics[target][<span class="st">&#39;RMSE&#39;</span>] <span class="op">=</span> np.sqrt(mean_squared_error(y_test[target], dl_predictions[target]))</span>
+<span id="cb32-24"><a href="#cb32-24" aria-hidden="true" tabindex="-1"></a>    dl_metrics[target][<span class="st">&#39;MAE&#39;</span>] <span class="op">=</span> mean_absolute_error(y_test[target], dl_predictions[target])</span>
+<span id="cb32-25"><a href="#cb32-25" aria-hidden="true" tabindex="-1"></a>    dl_metrics[target][<span class="st">&#39;R²&#39;</span>] <span class="op">=</span> r2_score(y_test[target], dl_predictions[target])</span>
+<span id="cb32-26"><a href="#cb32-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-27"><a href="#cb32-27" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Plotting actual vs predicted values for deep learning models</span></span>
+<span id="cb32-28"><a href="#cb32-28" aria-hidden="true" tabindex="-1"></a>    plt.figure(figsize<span class="op">=</span>(<span class="dv">7</span>, <span class="dv">4</span>))</span>
+<span id="cb32-29"><a href="#cb32-29" aria-hidden="true" tabindex="-1"></a>    plt.scatter(y_test[target], dl_predictions[target], alpha<span class="op">=</span><span class="fl">0.3</span>)</span>
+<span id="cb32-30"><a href="#cb32-30" aria-hidden="true" tabindex="-1"></a>    plt.plot([y_test[target].<span class="bu">min</span>(), y_test[target].<span class="bu">max</span>()], [y_test[target].<span class="bu">min</span>(), y_test[target].<span class="bu">max</span>()], <span class="st">&#39;r--&#39;</span>, lw<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb32-31"><a href="#cb32-31" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(<span class="st">&#39;Actual&#39;</span>)</span>
+<span id="cb32-32"><a href="#cb32-32" aria-hidden="true" tabindex="-1"></a>    plt.ylabel(<span class="st">&#39;Predicted&#39;</span>)</span>
+<span id="cb32-33"><a href="#cb32-33" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="ss">f&#39;Actual vs Predicted for </span><span class="sc">{</span>target<span class="sc">}</span><span class="ss"> (Deep Learning)&#39;</span>)</span>
+<span id="cb32-34"><a href="#cb32-34" aria-hidden="true" tabindex="-1"></a>    plt.show()</span>
+<span id="cb32-35"><a href="#cb32-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-36"><a href="#cb32-36" aria-hidden="true" tabindex="-1"></a><span class="co"># Convertion of metrics to DataFrame for better visualization</span></span>
+<span id="cb32-37"><a href="#cb32-37" aria-hidden="true" tabindex="-1"></a>dl_metrics_df <span class="op">=</span> pd.DataFrame(dl_metrics).T</span>
+<span id="cb32-38"><a href="#cb32-38" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Deep Learning Models Evaluation Metrics:&quot;</span>)</span>
+<span id="cb32-39"><a href="#cb32-39" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(dl_metrics_df)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 55ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 54ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 69ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 52ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 54ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 57ms/step
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_ec5d8c58fa414683bb02663a07b4bc59/955b99ebbbdf5c542d783c0f4ac4bc966338178f.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_ec5d8c58fa414683bb02663a07b4bc59/2e27704e62648e9ed25145832161845abf94d382.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_ec5d8c58fa414683bb02663a07b4bc59/76d2974aee0e1eefddec44a761febf41cd3dffda.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_ec5d8c58fa414683bb02663a07b4bc59/0e7ab3d059f5e2133710f61e970969bd8a65a125.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_ec5d8c58fa414683bb02663a07b4bc59/592d71b3d282f88135ca693ab975345d03a2baf6.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_ec5d8c58fa414683bb02663a07b4bc59/f03a6c5a72ff90dac377a2fcee88a909dc5be9fd.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Deep Learning Models Evaluation Metrics:
+                               RMSE        MAE         R²
+Avg_Temp (°C)              9.288690   8.576930  -0.032571
+Precipitation (mm)       117.943812  95.966026  -0.287767
+Solar_Irradiance (W/m²)   66.255085  57.216236   0.055312
+Cloud_Cover (%)           29.634420  27.052683  -0.304884
+CO2_Concentration (ppm)   37.323187  24.774711 -13.347992
+Sea_Surface_Temp (°C)      8.139160   7.179794  -0.708170
+</code></pre>
+</div>
+</div>
+<div id="7390b7a9" class="cell markdown"
+data-papermill="{&quot;duration&quot;:6.6457e-2,&quot;end_time&quot;:&quot;2024-07-20T16:09:13.493775&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:09:13.427318&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<h1 id="predictions">Predictions</h1>
+</div>
+<div id="cdffcb7d" class="cell code" data-execution_count="25"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-07-20T16:09:13.622551Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-07-20T16:09:13.621564Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-07-20T16:09:14.182036Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-07-20T16:09:14.180735Z&quot;}"
+data-papermill="{&quot;duration&quot;:0.628625,&quot;end_time&quot;:&quot;2024-07-20T16:09:14.184577&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:09:13.555952&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="co">#predictions from deep learning models</span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>dl_predictions <span class="op">=</span> {target: dl_models[target].predict(X_test).flatten() <span class="cf">for</span> target <span class="kw">in</span> target_cols}</span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Combination of predictions from all models including deep learning</span></span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>final_predictions <span class="op">=</span> {target: dl_predictions[target] <span class="cf">for</span> target <span class="kw">in</span> target_cols}</span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Addition of predictions from non-deep learning models</span></span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> target <span class="kw">in</span> target_cols:</span>
+<span id="cb35-9"><a href="#cb35-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> model <span class="kw">in</span> best_models.values():</span>
+<span id="cb35-10"><a href="#cb35-10" aria-hidden="true" tabindex="-1"></a>        final_predictions[target] <span class="op">+=</span> model.predict(X_test)</span>
+<span id="cb35-11"><a href="#cb35-11" aria-hidden="true" tabindex="-1"></a>    final_predictions[target] <span class="op">/=</span> (<span class="bu">len</span>(best_models) <span class="op">+</span> <span class="dv">1</span>)</span>
+<span id="cb35-12"><a href="#cb35-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-13"><a href="#cb35-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculation of evaluation metrics for the combined predictions</span></span>
+<span id="cb35-14"><a href="#cb35-14" aria-hidden="true" tabindex="-1"></a>combined_metrics <span class="op">=</span> {target: {} <span class="cf">for</span> target <span class="kw">in</span> target_cols}</span>
+<span id="cb35-15"><a href="#cb35-15" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> target <span class="kw">in</span> target_cols:</span>
+<span id="cb35-16"><a href="#cb35-16" aria-hidden="true" tabindex="-1"></a>    combined_predictions <span class="op">=</span> final_predictions[target]</span>
+<span id="cb35-17"><a href="#cb35-17" aria-hidden="true" tabindex="-1"></a>    combined_metrics[target][<span class="st">&#39;Model&#39;</span>] <span class="op">=</span> <span class="st">&#39;Combined Model&#39;</span></span>
+<span id="cb35-18"><a href="#cb35-18" aria-hidden="true" tabindex="-1"></a>    combined_metrics[target][<span class="st">&#39;RMSE&#39;</span>] <span class="op">=</span> np.sqrt(mean_squared_error(y_test[target], combined_predictions))</span>
+<span id="cb35-19"><a href="#cb35-19" aria-hidden="true" tabindex="-1"></a>    combined_metrics[target][<span class="st">&#39;MAE&#39;</span>] <span class="op">=</span> mean_absolute_error(y_test[target], combined_predictions)</span>
+<span id="cb35-20"><a href="#cb35-20" aria-hidden="true" tabindex="-1"></a>    combined_metrics[target][<span class="st">&#39;R²&#39;</span>] <span class="op">=</span> r2_score(y_test[target], combined_predictions)</span>
+<span id="cb35-21"><a href="#cb35-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-22"><a href="#cb35-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Convertion of metrics to DataFrame for better visualization</span></span>
+<span id="cb35-23"><a href="#cb35-23" aria-hidden="true" tabindex="-1"></a>combined_metrics_df <span class="op">=</span> pd.DataFrame(combined_metrics).T</span>
+<span id="cb35-24"><a href="#cb35-24" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(combined_metrics_df)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 21ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 20ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 21ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 20ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 20ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 20ms/step
+                                  Model        RMSE         MAE          R²
+Avg_Temp (°C)            Combined Model  107.895903  107.617617 -138.322432
+Precipitation (mm)       Combined Model  106.570486   81.802981   -0.051383
+Solar_Irradiance (W/m²)  Combined Model   79.019229   67.828724   -0.343741
+Cloud_Cover (%)          Combined Model   63.128986    55.01646   -4.921566
+CO2_Concentration (ppm)  Combined Model   246.53341  246.174504 -625.015722
+Sea_Surface_Temp (°C)    Combined Model   98.961857   98.746564  -251.52679
+</code></pre>
+</div>
+</div>
+<div id="0cb1e1f3" class="cell code" data-execution_count="26"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-07-20T16:09:14.313349Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-07-20T16:09:14.312925Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-07-20T16:09:14.329052Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-07-20T16:09:14.327877Z&quot;}"
+data-papermill="{&quot;duration&quot;:8.3706e-2,&quot;end_time&quot;:&quot;2024-07-20T16:09:14.331586&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:09:14.247880&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Convertion predictions to DataFrame</span></span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>predictions_df <span class="op">=</span> pd.DataFrame(final_predictions)</span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Addition actual values to the DataFrame</span></span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> target <span class="kw">in</span> target_cols:</span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>    predictions_df[<span class="ss">f&#39;Actual_</span><span class="sc">{</span>target<span class="sc">}</span><span class="ss">&#39;</span>] <span class="op">=</span> y_test[target].values</span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Display of the combined DataFrame</span></span>
+<span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(predictions_df.head())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>   Avg_Temp (°C)  Precipitation (mm)  Solar_Irradiance (W/m²)  \
+0     114.430244          126.535934               134.333237   
+1     119.674515          145.872040               149.068466   
+2     111.270859          122.087891               132.102982   
+3     115.967606          136.178284               139.997437   
+4     116.618309          138.951309               142.244675   
+
+   Cloud_Cover (%)  CO2_Concentration (ppm)  Sea_Surface_Temp (°C)  \
+0       119.315544               171.283325             115.040611   
+1       126.175453               189.038712             118.676186   
+2       116.513008               168.405502             112.375931   
+3       122.238815               176.725510             117.281006   
+4       121.715843               177.673981             115.996109   
+
+   Actual_Avg_Temp (°C)  Actual_Precipitation (mm)  \
+0             13.018699                   9.233454   
+1              9.469615                 106.553293   
+2              7.587887                 185.051493   
+3             -4.023908                 128.917833   
+4              5.241145                 100.238105   
+
+   Actual_Solar_Irradiance (W/m²)  Actual_Cloud_Cover (%)  \
+0                      187.986106               82.176498   
+1                      279.234908               72.357178   
+2                      129.632548               78.756750   
+3                      198.044109               84.215340   
+4                       89.701283               92.019986   
+
+   Actual_CO2_Concentration (ppm)  Actual_Sea_Surface_Temp (°C)  
+0                      427.687119                     10.581539  
+1                      404.772723                     19.545298  
+2                      425.653185                     10.002861  
+3                      433.175635                     20.772904  
+4                      423.297603                     19.545298  
+</code></pre>
+</div>
+</div>
+<div id="e23dd0fa" class="cell markdown"
+data-papermill="{&quot;duration&quot;:6.4164e-2,&quot;end_time&quot;:&quot;2024-07-20T16:09:14.460859&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:09:14.396695&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<h1 id="time-series-analysis">Time Series Analysis</h1>
+</div>
+<div id="566af06a" class="cell code" data-execution_count="27"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-07-20T16:09:14.592599Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-07-20T16:09:14.591459Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-07-20T16:09:16.884808Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-07-20T16:09:16.883548Z&quot;}"
+data-papermill="{&quot;duration&quot;:2.364142,&quot;end_time&quot;:&quot;2024-07-20T16:09:16.889519&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:09:14.525377&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb39"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting time series for each feature</span></span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">20</span>, <span class="dv">15</span>))</span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, target <span class="kw">in</span> <span class="bu">enumerate</span>(target_cols):</span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a>    plt.subplot(<span class="dv">3</span>, <span class="dv">2</span>, i<span class="op">+</span><span class="dv">1</span>)</span>
+<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a>    plt.plot(predictions_df.index, predictions_df[<span class="ss">f&#39;Actual_</span><span class="sc">{</span>target<span class="sc">}</span><span class="ss">&#39;</span>], label<span class="op">=</span><span class="ss">f&#39;Actual </span><span class="sc">{</span>target<span class="sc">}</span><span class="ss">&#39;</span>, color<span class="op">=</span><span class="st">&#39;black&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;dashed&#39;</span>)</span>
+<span id="cb39-6"><a href="#cb39-6" aria-hidden="true" tabindex="-1"></a>    plt.plot(predictions_df.index, predictions_df[target], label<span class="op">=</span><span class="ss">f&#39;Combined Predicted </span><span class="sc">{</span>target<span class="sc">}</span><span class="ss">&#39;</span>, color<span class="op">=</span><span class="st">&#39;blue&#39;</span>)</span>
+<span id="cb39-7"><a href="#cb39-7" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(<span class="st">&#39;Index&#39;</span>)</span>
+<span id="cb39-8"><a href="#cb39-8" aria-hidden="true" tabindex="-1"></a>    plt.ylabel(target)</span>
+<span id="cb39-9"><a href="#cb39-9" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="ss">f&#39;Time Series Analysis for </span><span class="sc">{</span>target<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb39-10"><a href="#cb39-10" aria-hidden="true" tabindex="-1"></a>    plt.legend()</span>
+<span id="cb39-11"><a href="#cb39-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-12"><a href="#cb39-12" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb39-13"><a href="#cb39-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_ec5d8c58fa414683bb02663a07b4bc59/8dd8bd42f651127ac635fc7e50408284e7713199.png" /></p>
+</div>
+</div>
+<div id="a202d3eb" class="cell code" data-execution_count="28"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-07-20T16:09:17.035738Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-07-20T16:09:17.034714Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-07-20T16:09:19.130413Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-07-20T16:09:19.129222Z&quot;}"
+data-papermill="{&quot;duration&quot;:2.171928,&quot;end_time&quot;:&quot;2024-07-20T16:09:19.136421&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:09:16.964493&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb40"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting line plots for trends from regression, deep learning, and combined models</span></span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">20</span>, <span class="dv">15</span>))</span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, target <span class="kw">in</span> <span class="bu">enumerate</span>(target_cols):</span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a>    plt.subplot(<span class="dv">3</span>, <span class="dv">2</span>, i<span class="op">+</span><span class="dv">1</span>)</span>
+<span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb40-6"><a href="#cb40-6" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Plotting actual values</span></span>
+<span id="cb40-7"><a href="#cb40-7" aria-hidden="true" tabindex="-1"></a>    plt.plot(predictions_df.index, predictions_df[<span class="ss">f&#39;Actual_</span><span class="sc">{</span>target<span class="sc">}</span><span class="ss">&#39;</span>].values, label<span class="op">=</span><span class="ss">f&#39;Actual </span><span class="sc">{</span>target<span class="sc">}</span><span class="ss">&#39;</span>, color<span class="op">=</span><span class="st">&#39;black&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;dashed&#39;</span>)</span>
+<span id="cb40-8"><a href="#cb40-8" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb40-9"><a href="#cb40-9" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Plotting regression model predictions</span></span>
+<span id="cb40-10"><a href="#cb40-10" aria-hidden="true" tabindex="-1"></a>    reg_predictions <span class="op">=</span> best_models[target].predict(X_test)</span>
+<span id="cb40-11"><a href="#cb40-11" aria-hidden="true" tabindex="-1"></a>    plt.plot(predictions_df.index, reg_predictions, label<span class="op">=</span><span class="ss">f&#39;Regression Predicted </span><span class="sc">{</span>target<span class="sc">}</span><span class="ss">&#39;</span>, alpha<span class="op">=</span><span class="fl">0.6</span>)</span>
+<span id="cb40-12"><a href="#cb40-12" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb40-13"><a href="#cb40-13" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Plotting deep learning model predictions</span></span>
+<span id="cb40-14"><a href="#cb40-14" aria-hidden="true" tabindex="-1"></a>    plt.plot(predictions_df.index, dl_predictions[target], label<span class="op">=</span><span class="ss">f&#39;DL Predicted </span><span class="sc">{</span>target<span class="sc">}</span><span class="ss">&#39;</span>, alpha<span class="op">=</span><span class="fl">0.6</span>)</span>
+<span id="cb40-15"><a href="#cb40-15" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb40-16"><a href="#cb40-16" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Plotting combined model predictions</span></span>
+<span id="cb40-17"><a href="#cb40-17" aria-hidden="true" tabindex="-1"></a>    plt.plot(predictions_df.index, final_predictions[target], label<span class="op">=</span><span class="ss">f&#39;Combined Predicted </span><span class="sc">{</span>target<span class="sc">}</span><span class="ss">&#39;</span>, linewidth<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb40-18"><a href="#cb40-18" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb40-19"><a href="#cb40-19" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(<span class="st">&#39;Index&#39;</span>)</span>
+<span id="cb40-20"><a href="#cb40-20" aria-hidden="true" tabindex="-1"></a>    plt.ylabel(target)</span>
+<span id="cb40-21"><a href="#cb40-21" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="ss">f&#39;Predicted Trends for </span><span class="sc">{</span>target<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb40-22"><a href="#cb40-22" aria-hidden="true" tabindex="-1"></a>    plt.legend()</span>
+<span id="cb40-23"><a href="#cb40-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-24"><a href="#cb40-24" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb40-25"><a href="#cb40-25" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_ec5d8c58fa414683bb02663a07b4bc59/df8264d4e83334e8cbdcaa26f7c4a865b26965f8.png" /></p>
+</div>
+</div>
+<div id="c6402e85" class="cell markdown"
+data-papermill="{&quot;duration&quot;:7.3524e-2,&quot;end_time&quot;:&quot;2024-07-20T16:09:19.290864&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2024-07-20T16:09:19.217340&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<h1 id="impact">Impact</h1>
+<p><em>This AI-powered climate prediction and mitigation solution will:
+</em></p>
+<p>1.Enhance the ability of policymakers to anticipate and address
+climate-related challenges.</p>
+<p>2.Enable organizations to implement data-driven climate action
+plans.</p>
+<p>3.Contribute to global efforts in combating climate change and
+promoting sustainable development.</p>
+<p>4.Foster collaboration across scientific, governmental, and
+industrial sectors to achieve a resilient and sustainable future.</p>
+</div>
+</body>
+</html>
